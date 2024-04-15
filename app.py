@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow import keras
 import numpy as np
 from PIL import Image, ImageOps
-from keras_preprocessing.image import load_img, img_to_array
+from tensorflow.keras.utils import load_img , img_to_array
 
 img_size = 48
 
